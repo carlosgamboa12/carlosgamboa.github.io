@@ -1,0 +1,75 @@
+body { 
+	background-color: grey;
+ 	color: black;
+	font-family: Geneva, Verdana, Arial, Helvetica, sans-serif;
+	font-size: small; 
+}
+
+#finalheader {
+	height: 250px;
+	background-color: white;
+	background-image: url(./images/carlosboard.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	font-weight: bold;
+        font-style: italic;
+	margin-bottom: 10px;
+        width: 1200px;
+        font-size: 200%;
+        border: 5px solid
+}
+
+#finalheader h1 {
+        padding-top: 10px;
+        padding-left: 50px;
+}
+
+#primenav {
+        background-color: lightblue;
+        float: right;
+        width: 450px;
+        height: 450px;
+        border: 5px solid;
+        padding: 15px;
+        font-size: 150%;
+        margin-top: 5px;
+        margin-bottom:5px;
+}
+
+#contentarea {
+        background-color: lightblue;
+        height: auto;
+        float: left;
+        width: 800px;
+        border: 5px solid;
+        padding: 15px;
+        text-indent: 25px;
+        margin-bottom: 5px;
+}
+
+#announcements {
+        background-color: lightblue;
+        float: right;
+        height: 100px;
+        width: 450px;
+        border: 5px solid;
+        padding: 15px;
+        margin-bottom: 5px;
+}
+
+#finalfooter {
+        background-color: lightblue;
+        border: 5px solid;
+        clear: both;
+        padding: 5px;
+}
+
+#finalfooter p {
+        position: absolute;
+        right: 50px;
+        margin-top: 5px;
+}
+
+a:hover {
+        color: green;
+}
